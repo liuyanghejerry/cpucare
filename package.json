@@ -1,6 +1,6 @@
 {
   "name": "cpucare",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A monitor helps you kill process when cpu usage is too high.",
   "main": "cpucare.js",
   "scripts": {

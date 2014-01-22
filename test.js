@@ -12,6 +12,7 @@ if (cluster.isMaster) {
   });
   c.once('processkilled', function(info) {
     console.log('child is killed', info);
+    console.log('TEST OK');
     process.exit(0);
   });
   // in case process is not get killed, we have to kill it
