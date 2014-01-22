@@ -1,0 +1,30 @@
+{
+  "name": "cpucare",
+  "version": "0.0.1",
+  "description": "A monitor helps you kill process when cpu usage is too high.",
+  "main": "cpucare.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuyanghejerry/cpucare.git"
+  },
+  "keywords": [
+    "cpu",
+    "usage",
+    "kill",
+    "monitor"
+  ],
+  "dependencies": {
+    "usage": "~0.3.9"
+  },
+  "engines": {
+    "node": ">= 0.10.x"
+  },
+  "author": "liuyanghejerry <liuyanghejerry@126.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/liuyanghejerry/cpucare/issues"
+  }
+}
